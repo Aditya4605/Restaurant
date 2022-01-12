@@ -369,9 +369,6 @@ footer{
     }
 
  @media only screen and (max-width:768px){  
- *{  
-   overflow:hidden;  
-  }
   .nav-change{  
    transform:translate(0%);  
   }  
