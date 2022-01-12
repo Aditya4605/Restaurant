@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -140,7 +141,14 @@
     <footer>
         Copyright &copy; Aditya Jangle. All rights reserved!
     </footer>
-
+<script>
+const hamburger = document.querySelector(".ham");  
+ const navsub = document.querySelector(".nav-sub");  
+ hamburger.addEventListener('click', () => {  
+  hamburger.classList.toggle("change")  
+  navsub.classList.toggle("nav-change")  
+ });  
+</script>
 </body>
 
 </html>
